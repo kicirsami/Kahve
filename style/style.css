@@ -38,8 +38,27 @@ body{
     color: white;
     margin-right: 30px;
 }
-.two:hover ~ hr {
-    margin-left: 25%;
+.sepet{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    position:absolute;
+    top:13%;
+    left:8%;
+    transform: translate(-8%, -8%);
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 70px;
+}
+.sbox{
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    background-color: #9E5E3B;
+    top: 30%;
+    left: 10%;
+    transform: translate(-30%, -10%);
 }
 @media only screen and (max-width: 375px){
     .logo{
