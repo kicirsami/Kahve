@@ -1,0 +1,49 @@
+body{
+    overflow: hidden;
+    background: #000;
+}
+.vcenter-item{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    z-index: 1;
+    width: auto;
+    height: auto;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.backgroundimg{
+    z-index: 0;
+    opacity: 0.7;
+}
+.navbarproperty{
+    font-family: 'Lobster', cursive;
+    font-size: 38px;
+}
+.iconssize{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top:35%;
+    right: 0;
+    transform: translate(0, -35%);
+    color: white;
+    margin-right: 30px;
+}
+.two:hover ~ hr {
+    margin-left: 25%;
+}
+@media only screen and (max-width: 375px){
+    .logo{
+        width: auto;
+        height: auto;
+    }
+    .iconssize{
+        margin-right: 10px;
+        width: 40px;
+        height: 40px;
+    }
+}
