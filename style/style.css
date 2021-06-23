@@ -185,3 +185,97 @@ body {
     width: 67vw;
     height: 20vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
+.menu	 {
+    z-index: 1;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 13%;
+    left: 14.5%;
+    transform: translate(-8%, -8%);
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 70px;
+}
+
+.menu-box {
+    display: flex;
+    position: absolute;
+    width: 70%;
+    height: 70%;
+    background-color: #9E5E3B;
+    top: 30%;
+    left: 35%;
+    right: 40%;
+    transform: translate(-30%, -10%);
+    overflow-y: scroll;
+    overflow-x: hidden;
+	padding:50px;
+}
+
+.menu-box{
+	display: flex;
+}
+
+.menu-card{
+	font-family: 'Lobster', cursive;
+}
+
+.menu-card i{
+	position: absolute;
+	bottom:10%;
+	right: 7%;
+}
