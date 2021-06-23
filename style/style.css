@@ -106,8 +106,6 @@ body {
     margin-right: 30px;
 }
 
-/* sepet */
-
 .sepet {
     z-index: 1;
     width: auto;
@@ -120,9 +118,6 @@ body {
     color: white;
     font-size: 70px;
 }
-
-/* main media */
-
 
 .sbox {
     display: flex;
