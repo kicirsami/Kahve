@@ -103,9 +103,6 @@ body {
     list-style-type: none;
 }
 
-.social-icon {
-	display:none;
-}
 /* main media */
 
 @media only screen and (max-width: 375px) {
