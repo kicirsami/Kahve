@@ -86,7 +86,7 @@ body {
     margin: auto;
     background-color: #ffff;
     color: transparent;
-    width: 0%;
+    width: 0;
     content: '';
     height: 3px;
     transition: all 0.5s;
@@ -143,20 +143,7 @@ body {
 
 /* Sepet */
 
-.sepet {
-    z-index: 1;
-    width: auto;
-    height: auto;
-    position: absolute;
-    top: 13%;
-    left: 45%;
-    transform: translate(-8%, -8%);
-    font-family: 'Lobster', cursive;
-    color: white;
-    font-size: 70px;
-}
-
-.sbox {
+.sepet-box {
     display: flex;
     position: absolute;
     width: 70%;
@@ -168,20 +155,82 @@ body {
     transform: translate(-30%, -10%);
     overflow-y: scroll;
     overflow-x: hidden;
+    opacity: 0.9;
 }
 
-.rsepet {
-    position: relative;
+.image-sepet{
+    width:100vw;
+    height: auto;
 }
-
-.sepetcard {
+.card-properties{
+    margin-top: 3vh;
+    width: 68vw;
+    height: auto;
+}
+.sepet-card-title{
+    color: black;
+    font-family: 'Lobster', cursive;
+    font-size: 45px;
+}
+.sepet-card-price{
+    color: #ffffff;
+    font-family: 'Oxanium', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+.card-body{
     background-color: #B8C6CD;
-    width: 100%;
-    height: 100%;
-    border-radius: 3%;
+}
+.sepet-card-container{
+    float: left;
+}
+.sepet-card-price-card{
+    width: 7vw;
+    height: auto;
+    background-color: #605A57;
+}
+.sepet-card-edit-icon{
+    width: 40px;
+    height: 40px;
 }
 
-.sepetcol {
-    width: 67vw;
-    height: 20vh;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* */
