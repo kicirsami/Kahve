@@ -152,7 +152,7 @@ body {
     font-family: 'Lobster', cursive;
     color: white;
     font-size: 70px;
-    padding-bottom:10%;
+    padding-bottom: 10%;
 }
 
 .sepet-box {
@@ -170,45 +170,52 @@ body {
     opacity: 0.9;
 }
 
-.image-sepet{
-    width:100vw;
+.image-sepet {
+    width: 100vw;
     height: auto;
 }
-.card-properties{
+
+.card-properties {
     margin-top: 3vh;
     width: 68vw;
     height: auto;
 }
-.sepet-card-title{
+
+.sepet-card-title {
     color: black;
     font-family: 'Lobster', cursive;
     font-size: 45px;
 }
-.sepet-card-price{
+
+.sepet-card-price {
     color: #ffffff;
     font-family: 'Oxanium', cursive;
     font-size: 30px;
     font-weight: bold;
 }
-.card-body{
+
+.card-body {
     background-color: #B8C6CD;
 }
-.sepet-card-container{
+
+.sepet-card-container {
     float: left;
 }
-.sepet-card-price-card{
+
+.sepet-card-price-card {
     width: 7vw;
     height: auto;
     background-color: #605A57;
 }
-.sepet-card-edit-icon{
+
+.sepet-card-edit-icon {
     width: 40px;
     height: 40px;
 }
 
 
 /* menu*/
-.menu	 {
+.menu {
     z-index: 1;
     width: auto;
     height: auto;
@@ -233,16 +240,15 @@ body {
     transform: translate(-30%, -10%);
     overflow-y: scroll;
     overflow-x: hidden;
-	padding:50px;
+    padding: 50px;
 }
 
-.menu-card{
-	font-family: 'Lobster', cursive;
+.menu-card {
+    font-family: 'Lobster', cursive;
 }
 
- .menu-card i{
+.menu-card i {
     position: absolute;
     right: 18%;
     bottom: 7%;
-} 
-
+}
