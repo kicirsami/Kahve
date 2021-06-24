@@ -86,7 +86,7 @@ body {
     margin: auto;
     background-color: #ffff;
     color: transparent;
-    width: 0%;
+    width: 0;
     content: '';
     height: 3px;
     transition: all 0.5s;
@@ -144,16 +144,15 @@ body {
 /* Sepet */
 
 .sepet {
-    z-index: 1;
     width: auto;
     height: auto;
     position: absolute;
     top: 13%;
-    left: 45%;
-    transform: translate(-8%, -8%);
+    left: 14.5%;
     font-family: 'Lobster', cursive;
     color: white;
     font-size: 70px;
+    padding-bottom:10%;
 }
 
 .sbox {
@@ -266,16 +265,13 @@ body {
 	padding:50px;
 }
 
-.menu-box{
-	display: flex;
-}
-
 .menu-card{
 	font-family: 'Lobster', cursive;
 }
 
-.menu-card i{
-	position: absolute;
-	bottom:10%;
-	right: 7%;
-}
+ .menu-card i{
+    position: absolute;
+    right: 18%;
+    bottom: 7%;
+} 
+
